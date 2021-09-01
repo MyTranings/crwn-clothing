@@ -1,12 +1,12 @@
 import React from 'react';
-import CardLinkList from '../card-link-list.component/card-link-list.component';
+import Directory from '../../components/directory/directory.component';
 
 import './homepage.styles.scss';
 
 const HomePage = () => {
   return (
     <div className='homepage'>
-      <CardLinkList />
+      <Directory />
     </div>
   )
 }
